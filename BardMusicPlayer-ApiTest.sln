@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 16.0.31129.286
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Common", "BardMusicPlayer\BardMusicPlayer.Common\BardMusicPlayer.Common.csproj", "{216444D9-943B-4024-8B7E-E2E3B4968A7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Catalog", "BardMusicPlayer\BardMusicPlayer.Catalog\BardMusicPlayer.Catalog.csproj", "{97712A4D-9AC1-4FC4-8DD6-3612165D89C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Config", "BardMusicPlayer\BardMusicPlayer.Config\BardMusicPlayer.Config.csproj", "{86A12982-0AD1-4B28-87E3-98D3958713E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Doot", "BardMusicPlayer\BardMusicPlayer.Doot\BardMusicPlayer.Doot.csproj", "{204CF1CC-4C0A-4FD1-9D1F-E7B152349704}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Grunt", "BardMusicPlayer\BardMusicPlayer.Grunt\BardMusicPlayer.Grunt.csproj", "{21006E9D-B463-4490-91CA-4E5EB75D4ACE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Notate", "BardMusicPlayer\BardMusicPlayer.Notate\BardMusicPlayer.Notate.csproj", "{29407BD0-7C71-4A61-8B9C-2FE2DDFE8481}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Seer", "BardMusicPlayer\BardMusicPlayer.Seer\BardMusicPlayer.Seer.csproj", "{F8685266-8970-428A-9E66-BEF1AEBC90A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Synth", "BardMusicPlayer\BardMusicPlayer.Synth\BardMusicPlayer.Synth.csproj", "{38CA01D3-4080-4A71-80C1-3A5F9E32EC84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.ApiTest.Grunt", "BardMusicPlayer.ApiTest.Grunt\BardMusicPlayer.ApiTest.Grunt.csproj", "{60253AE6-05E2-420D-8BED-4D2C6B15503E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.ApiTest.Seer", "BardMusicPlayer.ApiTest.Seer\BardMusicPlayer.ApiTest.Seer.csproj", "{541279F3-AD53-45DD-A62C-4C88F7A825DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.ApiTest.Synth", "BardMusicPlayer.ApiTest.Synth\BardMusicPlayer.ApiTest.Synth.csproj", "{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216444D9-943B-4024-8B7E-E2E3B4968A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216444D9-943B-4024-8B7E-E2E3B4968A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216444D9-943B-4024-8B7E-E2E3B4968A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216444D9-943B-4024-8B7E-E2E3B4968A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97712A4D-9AC1-4FC4-8DD6-3612165D89C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97712A4D-9AC1-4FC4-8DD6-3612165D89C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97712A4D-9AC1-4FC4-8DD6-3612165D89C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97712A4D-9AC1-4FC4-8DD6-3612165D89C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A12982-0AD1-4B28-87E3-98D3958713E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A12982-0AD1-4B28-87E3-98D3958713E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A12982-0AD1-4B28-87E3-98D3958713E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A12982-0AD1-4B28-87E3-98D3958713E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204CF1CC-4C0A-4FD1-9D1F-E7B152349704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204CF1CC-4C0A-4FD1-9D1F-E7B152349704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204CF1CC-4C0A-4FD1-9D1F-E7B152349704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204CF1CC-4C0A-4FD1-9D1F-E7B152349704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21006E9D-B463-4490-91CA-4E5EB75D4ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21006E9D-B463-4490-91CA-4E5EB75D4ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21006E9D-B463-4490-91CA-4E5EB75D4ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21006E9D-B463-4490-91CA-4E5EB75D4ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29407BD0-7C71-4A61-8B9C-2FE2DDFE8481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29407BD0-7C71-4A61-8B9C-2FE2DDFE8481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29407BD0-7C71-4A61-8B9C-2FE2DDFE8481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29407BD0-7C71-4A61-8B9C-2FE2DDFE8481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8685266-8970-428A-9E66-BEF1AEBC90A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8685266-8970-428A-9E66-BEF1AEBC90A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8685266-8970-428A-9E66-BEF1AEBC90A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8685266-8970-428A-9E66-BEF1AEBC90A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CA01D3-4080-4A71-80C1-3A5F9E32EC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CA01D3-4080-4A71-80C1-3A5F9E32EC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CA01D3-4080-4A71-80C1-3A5F9E32EC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CA01D3-4080-4A71-80C1-3A5F9E32EC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60253AE6-05E2-420D-8BED-4D2C6B15503E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60253AE6-05E2-420D-8BED-4D2C6B15503E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60253AE6-05E2-420D-8BED-4D2C6B15503E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60253AE6-05E2-420D-8BED-4D2C6B15503E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541279F3-AD53-45DD-A62C-4C88F7A825DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541279F3-AD53-45DD-A62C-4C88F7A825DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541279F3-AD53-45DD-A62C-4C88F7A825DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541279F3-AD53-45DD-A62C-4C88F7A825DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57B10702-DB3D-4D1C-82C3-352E42A7219E}
+	EndGlobalSection
+EndGlobal
