@@ -4,7 +4,6 @@
  */
 
 using System;
-using System.Collections.Generic;
 using System.Text;
 using BardMusicPlayer.Config;
 using BardMusicPlayer.Notate.Song;
@@ -17,13 +16,13 @@ namespace BardMusicPlayer.ApiTest.Synth
     {
         private static string _lastLyric = "";
 
-        private static void Main(IReadOnlyList<string> args)
+        private static void Main(string[] args)
         {
             BmpConfig.Initialize(AppContext.BaseDirectory + @"\Notate.ApiTest.json");
 
             Synthesizer.Instance.Setup();
 
-            if (args.Count == 0)
+            if (args.Length == 0)
             {
                 Console.WriteLine("drag a bmp 2.0 formatted midi file onto this exe to test.");
                 Console.ReadLine();
