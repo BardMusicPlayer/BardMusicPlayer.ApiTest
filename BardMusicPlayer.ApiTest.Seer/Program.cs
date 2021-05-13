@@ -4,7 +4,7 @@
  */
 
 using System;
-using BardMusicPlayer.Config;
+using BardMusicPlayer.Pigeonhole;
 using BardMusicPlayer.Seer;
 using BardMusicPlayer.Seer.Events;
 
@@ -14,7 +14,7 @@ namespace BardMusicPlayer.ApiTest.Seer
     {
         private static void Main()
         {
-            BmpConfig.Initialize(AppContext.BaseDirectory + @"\Seer.ApiTest.json");
+            BmpPigeonhole.Initialize(AppContext.BaseDirectory + @"\Seer.ApiTest.json");
 
             BmpSeer.Instance.SeerExceptionEvent += PrintExceptionInfo;
             BmpSeer.Instance.GameExceptionEvent += PrintExceptionInfo;

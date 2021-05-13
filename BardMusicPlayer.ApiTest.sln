@@ -3,31 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 16.0.31129.286
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Common", "BardMusicPlayer\BardMusicPlayer.Common\BardMusicPlayer.Common.csproj", "{216444D9-943B-4024-8B7E-E2E3B4968A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Quotidian", "BardMusicPlayer\BardMusicPlayer.Quotidian\BardMusicPlayer.Quotidian.csproj", "{216444D9-943B-4024-8B7E-E2E3B4968A7C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Catalog", "BardMusicPlayer\BardMusicPlayer.Catalog\BardMusicPlayer.Catalog.csproj", "{97712A4D-9AC1-4FC4-8DD6-3612165D89C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Coffer", "BardMusicPlayer\BardMusicPlayer.Coffer\BardMusicPlayer.Coffer.csproj", "{97712A4D-9AC1-4FC4-8DD6-3612165D89C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Config", "BardMusicPlayer\BardMusicPlayer.Config\BardMusicPlayer.Config.csproj", "{86A12982-0AD1-4B28-87E3-98D3958713E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Pigeonhole", "BardMusicPlayer\BardMusicPlayer.Pigeonhole\BardMusicPlayer.Pigeonhole.csproj", "{86A12982-0AD1-4B28-87E3-98D3958713E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Doot", "BardMusicPlayer\BardMusicPlayer.Doot\BardMusicPlayer.Doot.csproj", "{204CF1CC-4C0A-4FD1-9D1F-E7B152349704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Maestro", "BardMusicPlayer\BardMusicPlayer.Maestro\BardMusicPlayer.Maestro.csproj", "{204CF1CC-4C0A-4FD1-9D1F-E7B152349704}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Grunt", "BardMusicPlayer\BardMusicPlayer.Grunt\BardMusicPlayer.Grunt.csproj", "{21006E9D-B463-4490-91CA-4E5EB75D4ACE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Notate", "BardMusicPlayer\BardMusicPlayer.Notate\BardMusicPlayer.Notate.csproj", "{29407BD0-7C71-4A61-8B9C-2FE2DDFE8481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Transmogrify", "BardMusicPlayer\BardMusicPlayer.Transmogrify\BardMusicPlayer.Transmogrify.csproj", "{29407BD0-7C71-4A61-8B9C-2FE2DDFE8481}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Seer", "BardMusicPlayer\BardMusicPlayer.Seer\BardMusicPlayer.Seer.csproj", "{F8685266-8970-428A-9E66-BEF1AEBC90A8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Synth", "BardMusicPlayer\BardMusicPlayer.Synth\BardMusicPlayer.Synth.csproj", "{38CA01D3-4080-4A71-80C1-3A5F9E32EC84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Siren", "BardMusicPlayer\BardMusicPlayer.Siren\BardMusicPlayer.Siren.csproj", "{38CA01D3-4080-4A71-80C1-3A5F9E32EC84}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.ApiTest.Grunt", "BardMusicPlayer.ApiTest.Grunt\BardMusicPlayer.ApiTest.Grunt.csproj", "{60253AE6-05E2-420D-8BED-4D2C6B15503E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.ApiTest.Seer", "BardMusicPlayer.ApiTest.Seer\BardMusicPlayer.ApiTest.Seer.csproj", "{541279F3-AD53-45DD-A62C-4C88F7A825DE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.ApiTest.Synth", "BardMusicPlayer.ApiTest.Synth\BardMusicPlayer.ApiTest.Synth.csproj", "{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BardMusicPlayer.ApiTest.Jamboree", "BardMusicPlayer.ApiTest.Jamboree\BardMusicPlayer.ApiTest.Jamboree.csproj", "{F9E03E37-CA6E-4D73-A311-A63C7B8ABEE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.ApiTest.Jamboree", "BardMusicPlayer.ApiTest.Jamboree\BardMusicPlayer.ApiTest.Jamboree.csproj", "{F9E03E37-CA6E-4D73-A311-A63C7B8ABEE5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.Jamboree", "BardMusicPlayer\BardMusicPlayer.Jamboree\BardMusicPlayer.Jamboree.csproj", "{9400D05F-B969-4AA1-8DFF-996E00A4155F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardMusicPlayer.ApiTest.Siren", "BardMusicPlayer.ApiTest.Siren\BardMusicPlayer.ApiTest.Siren.csproj", "{888C2C37-728E-4D7D-AEA2-4AC7E84250BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,10 +75,6 @@ Global
 		{541279F3-AD53-45DD-A62C-4C88F7A825DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{541279F3-AD53-45DD-A62C-4C88F7A825DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{541279F3-AD53-45DD-A62C-4C88F7A825DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4B2B10E-6A11-4A08-8104-136F06CBE1B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9E03E37-CA6E-4D73-A311-A63C7B8ABEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9E03E37-CA6E-4D73-A311-A63C7B8ABEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9E03E37-CA6E-4D73-A311-A63C7B8ABEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +83,10 @@ Global
 		{9400D05F-B969-4AA1-8DFF-996E00A4155F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9400D05F-B969-4AA1-8DFF-996E00A4155F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9400D05F-B969-4AA1-8DFF-996E00A4155F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888C2C37-728E-4D7D-AEA2-4AC7E84250BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888C2C37-728E-4D7D-AEA2-4AC7E84250BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888C2C37-728E-4D7D-AEA2-4AC7E84250BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888C2C37-728E-4D7D-AEA2-4AC7E84250BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

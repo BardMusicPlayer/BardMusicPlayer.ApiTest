@@ -5,8 +5,8 @@
 
 using System;
 using System.Threading.Tasks;
-using BardMusicPlayer.Common.Structs;
-using BardMusicPlayer.Config;
+using BardMusicPlayer.Quotidian.Structs;
+using BardMusicPlayer.Pigeonhole;
 using BardMusicPlayer.Grunt;
 using BardMusicPlayer.Seer;
 using BardMusicPlayer.Seer.Events;
@@ -17,7 +17,7 @@ namespace BardMusicPlayer.ApiTest.Grunt
     {
         private static void Main()
         {
-            BmpConfig.Initialize(AppContext.BaseDirectory + @"\Grunt.ApiTest.json");
+            BmpPigeonhole.Initialize(AppContext.BaseDirectory + @"\Grunt.ApiTest.json");
 
             BmpSeer.Instance.GameStarted += SendADoot;
 

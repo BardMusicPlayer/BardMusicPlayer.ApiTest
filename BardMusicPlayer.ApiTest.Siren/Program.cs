@@ -5,12 +5,12 @@
 
 using System;
 using System.Text;
-using BardMusicPlayer.Config;
-using BardMusicPlayer.Notate.Song;
-using BardMusicPlayer.Synth;
+using BardMusicPlayer.Pigeonhole;
+using BardMusicPlayer.Siren;
+using BardMusicPlayer.Transmogrify.Song;
 using Melanchall.DryWetMidi.Core;
 
-namespace BardMusicPlayer.ApiTest.Synth
+namespace BardMusicPlayer.ApiTest.Siren
 {
     internal class Program
     {
@@ -18,10 +18,13 @@ namespace BardMusicPlayer.ApiTest.Synth
 
         private static void Main(string[] args)
         {
-            BmpConfig.Initialize(AppContext.BaseDirectory + @"\Notate.ApiTest.json");
+            BmpPigeonhole.Initialize(AppContext.BaseDirectory + @"\Siren.ApiTest.json");
 
-            Synthesizer.Instance.Setup();
+            BmpSiren.Instance.Setup();
 
+#if DEBUG
+            var song = BmpSong.OpenMidiFile(@"bongocheck.mid").GetAwaiter().GetResult();
+#else
             if (args.Length == 0)
             {
                 Console.WriteLine("drag a bmp 2.0 formatted midi file onto this exe to test.");
@@ -31,8 +34,8 @@ namespace BardMusicPlayer.ApiTest.Synth
 
             Console.WriteLine("Attempting to process midi file data with BmpNotate alpha 12..");
             var song = BmpSong.OpenMidiFile(args[0]).GetAwaiter().GetResult();
-
-            //var song = BmpSong.OpenMidiFile(@"bongocheck.mid").GetAwaiter().GetResult();
+#endif
+            
 
             song.GetProcessedMidiFile().GetAwaiter().GetResult().Write(@"test.mid", true, MidiFileFormat.MultiTrack, new WritingSettings { TextEncoding = Encoding.UTF8 });;
 
@@ -40,31 +43,31 @@ namespace BardMusicPlayer.ApiTest.Synth
 
             Console.WriteLine("Loading song into preview synthesizer..");
 
-            while (!Synthesizer.Instance.IsReady)
+            while (!BmpSiren.Instance.IsReady)
             {
             }
 
-            Synthesizer.Instance.SynthTimePositionChanged += PositionChanged;
-            Synthesizer.Instance.LyricTrigger += LyricTrigger;
+            BmpSiren.Instance.SynthTimePositionChanged += PositionChanged;
+            BmpSiren.Instance.LyricTrigger += LyricTrigger;
 
-            Synthesizer.Instance.Load(song).GetAwaiter().GetResult();
+            BmpSiren.Instance.Load(song).GetAwaiter().GetResult();
 
-            while (!Synthesizer.Instance.IsReadyForPlayback)
+            while (!BmpSiren.Instance.IsReadyForPlayback)
             {
             }
 
             Console.WriteLine("Press Enter to quit.");
             Console.WriteLine(" ");
 
-            Synthesizer.Instance.Play();
+            BmpSiren.Instance.Play();
 
             Console.ReadLine();
 
-            Synthesizer.Instance.SynthTimePositionChanged -= PositionChanged;
-            Synthesizer.Instance.LyricTrigger -= LyricTrigger;
+            BmpSiren.Instance.SynthTimePositionChanged -= PositionChanged;
+            BmpSiren.Instance.LyricTrigger -= LyricTrigger;
 
-            Synthesizer.Instance.Stop();
-            Synthesizer.Instance.ShutDown();
+            BmpSiren.Instance.Stop();
+            BmpSiren.Instance.ShutDown();
             Environment.Exit(0);
         }
 
