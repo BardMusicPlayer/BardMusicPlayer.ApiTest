@@ -8,6 +8,14 @@
     <StartupObject>BardMusicPlayer.ApiTest.Jamboree.Program</StartupObject>
     <LangVersion>9</LangVersion>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <DelaySign>false</DelaySign>
+    <PackageProjectUrl>https://bardmusicplayer.com</PackageProjectUrl>
+    <Version>1.0.0.0</Version>
+    <Authors>MoogleTroupe</Authors>
+    <Copyright>Copyright © MoogleTroupe 2021</Copyright>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/BardMusicPlayer/BardMusicPlayer.ApiTest</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
